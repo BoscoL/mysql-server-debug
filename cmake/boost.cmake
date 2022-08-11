@@ -38,6 +38,8 @@
 # we assume that the correct version (see below)
 # is installed on the compile host in the standard location.
 
+SET(BOOST_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/extra/boost_1_77_0")
+
 SET(BOOST_PACKAGE_NAME "boost_1_77_0")
 SET(BOOST_TARBALL "${BOOST_PACKAGE_NAME}.tar.bz2")
 SET(BOOST_DOWNLOAD_URL
